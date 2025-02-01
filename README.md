@@ -1,40 +1,37 @@
-FAQ Management System
+# FAQ Management System
 
 This project is a FAQ Management System that allows users to manage frequently asked questions (FAQs). It consists of a Spring Boot backend and a React frontend, both containerized using Docker.
 
-Features
-Backend:
+## Features
 
-REST API for managing FAQs.
+### Backend:
 
-Multi-language support using Google Translate API.
+- REST API for managing FAQs.
+- Multi-language support using Google Translate API.
 
-Frontend:
+### Frontend:
 
-User-friendly interface for viewing and creating FAQs.
+- User-friendly interface for viewing and creating FAQs.
+- Multi-language support with a language selector.
 
-Multi-language support with a language selector.
+## Technologies Used
 
-Technologies Used
-Backend: Spring Boot, Java.
+- **Backend**: Spring Boot, Java.
+- **Frontend**: React, Axios, Bootstrap.
+- **Containerization**: Docker, Docker Compose.
 
-Frontend: React, Axios, Bootstrap.
+## Prerequisites
 
-Containerization: Docker, Docker Compose.
-
-Prerequisites
 Before running the project, ensure you have the following installed:
 
-Docker: Install Docker
+- **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
+- **Docker Compose**: [Install Docker Compose](https://docs.docker.com/compose/install/)
+- **Node.js** (for frontend development): [Install Node.js](https://nodejs.org/)
+- **Java Development Kit (JDK)** (for backend development): [Install JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-Docker Compose: Install Docker Compose
+## Project Structure
 
-Node.js (for frontend development): Install Node.js
-
-Java Development Kit (JDK) (for backend development): Install JDK
-
-Project Structure
-Copy
+```
 faq-project/
 ├── backend/              # Spring Boot backend
 │   ├── src/              # Source code
@@ -46,119 +43,132 @@ faq-project/
 │   └── package.json      # Node.js dependencies
 ├── docker-compose.yml    # Docker Compose configuration
 └── README.md             # Project documentation
-Setup and Running the Project
-1. Clone the Repository
+```
+
+## Setup and Running the Project
+
+### 1. Clone the Repository
+
 Clone the project repository to your local machine:
 
-bash
-Copy
+```sh
 git clone https://github.com/your-username/faq-project.git
 cd faq-project
-2. Build and Run with Docker Compose
+```
+
+### 2. Build and Run with Docker Compose
+
 Run the following command to build and start the containers:
 
-bash
-Copy
+```sh
 docker-compose up --build
+```
+
 This will:
 
-Build the Docker images for the backend and frontend.
+- Build the Docker images for the backend and frontend.
+- Start the following services:
+  - Backend: Spring Boot app on port 8080.
+  - Frontend: React app on port 3000.
 
-Start the following services:
+### 3. Access the Application
 
-Backend: Spring Boot app on port 8080.
+- **Frontend**: Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+- **Backend API**: Access the API at [http://localhost:8080/api/faqs](http://localhost:8080/api/faqs).
 
-Frontend: React app on port 3000.
+## Running Without Docker
 
-3. Access the Application
-Frontend: Open your browser and navigate to http://localhost:3000.
+### 1. Backend
 
-Backend API: Access the API at http://localhost:8080/api/faqs.
-
-Running Without Docker
-1. Backend
 Navigate to the backend directory:
 
-bash
-Copy
+```sh
 cd backend
+```
+
 Build and run the Spring Boot application:
 
-bash
-Copy
+```sh
 ./mvnw spring-boot:run
-2. Frontend
+```
+
+### 2. Frontend
+
 Navigate to the frontend directory:
 
-bash
-Copy
+```sh
 cd frontend
+```
+
 Install dependencies and start the development server:
 
-bash
-Copy
+```sh
 npm install
 npm start
-API Endpoints
-Backend API
-Get FAQs: GET /api/faqs?lang={language}
+```
 
-Example: http://localhost:8080/api/faqs?lang=hi
+## API Endpoints
 
-Create FAQ: POST /api/faqs
+### Backend API
 
-Example: http://localhost:8080/api/faqs
+- **Get FAQs**: `GET /api/faqs?lang={language}`
+  - Example: [http://localhost:8080/api/faqs?lang=hi](http://localhost:8080/api/faqs?lang=hi)
+- **Create FAQ**: `POST /api/faqs`
+  - Example: [http://localhost:8080/api/faqs](http://localhost:8080/api/faqs)
 
-Docker Commands
-Build Docker Images
-bash
-Copy
+## Docker Commands
+
+### Build Docker Images
+
+```sh
 docker-compose build
-Start Containers
-bash
-Copy
+```
+
+### Start Containers
+
+```sh
 docker-compose up
-Stop Containers
-bash
-Copy
+```
+
+### Stop Containers
+
+```sh
 docker-compose down
-View Logs
-bash
-Copy
+```
+
+### View Logs
+
+```sh
 docker-compose logs -f
-Troubleshooting
+```
 
-1. Docker Issues
-Ensure Docker is running.
+## Troubleshooting
 
-Check if ports 8080 (backend) and 3000 (frontend) are available.
+### 1. Docker Issues
 
-2. Backend Issues
-Ensure the Spring Boot application is running and accessible at http://localhost:8080.
+- Ensure Docker is running.
+- Check if ports 8080 (backend) and 3000 (frontend) are available.
 
-3. Frontend Issues
-Ensure the React app is running and accessible at http://localhost:3000.
+### 2. Backend Issues
 
-Contributing
-Fork the repository.
+- Ensure the Spring Boot application is running and accessible at [http://localhost:8080](http://localhost:8080).
 
-Create a new branch: git checkout -b feature/your-feature-name.
+### 3. Frontend Issues
 
-Commit your changes: git commit -m "Add your feature".
+- Ensure the React app is running and accessible at [http://localhost:3000](http://localhost:3000).
 
-Push to the branch: git push origin feature/your-feature-name.
 
-Submit a pull request.
 
-License
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
+
 For questions or feedback, please contact:
 
-Your Name: ntiheishnaik8@gmail.com
-
-GitHub: nithieshnaik
+- **Email: nitheshnaik8\@gmail.com**
+- **GitHub**: nithieshnaik
 
 Enjoy using the FAQ Management System! 🚀
 
