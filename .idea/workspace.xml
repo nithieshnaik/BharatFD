@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55bd5734-b6dc-41d4-9e68-285bb6fb7708" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Frontent (React)/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Frontent (React)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontent (React)/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontent (React)/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/src/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/src/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/src/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/src/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontent (React)/tailwind.config.mjs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2sSMY6QCvcF6L7Eql8XT0PbeSXQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55bd5734-b6dc-41d4-9e68-285bb6fb7708" name="Changes" comment="" />
+      <created>1738444570499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738444570499</updated>
+    </task>
+    <servers />
+  </component>
+</project>
